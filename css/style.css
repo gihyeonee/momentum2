@@ -15,4 +15,16 @@ img {
 
 body {
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#clock {
+  font-size: 100px;
+}
+
+#quote {
+  position: absolute;
+  bottom: 50px;
 }
